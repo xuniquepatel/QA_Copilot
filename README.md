@@ -27,7 +27,7 @@
 
 ## Key Value Proposition
 - **More signal, less noise**: Targets risky, **uncovered branches** first.
-- **Evidence-based**: Each test must **earn its keep**—if mutation score or coverage doesn’t improve, it’s reverted.
+- **Evidence-based**: Each test must **earn its keep** if mutation score or coverage doesn’t improve, it’s reverted.
 - **Offline-first**: No cloud dependency. Optional small local LLM can be added later, strictly template-constrained.
 - **CI-ready**: Deterministic runs, time budgets, JSON/HTML artifacts, and a keep/revert **ledger**.
 
