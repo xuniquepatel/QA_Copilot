@@ -1,6 +1,6 @@
 # QA Copilot - GenAI-Verified Test Generator
 
-> **Automatically generates only those tests that truly catch bugs—proven by increased mutation score or branch coverage while staying fully offline and CI-friendly.**
+> **Automatically generates only those tests that truly catch bugs proven by increased mutation score or branch coverage while staying fully offline and CI-friendly.**
 
 ![status-badge](https://img.shields.io/badge/status-active-brightgreen)
 ![python-badge](https://img.shields.io/badge/python-3.10%2B-blue)
