@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # QA Copilot - GenAI-Verified Test Generator
 
 > **Automatically generates only those tests that truly catch bugs proven by increased mutation score or branch coverage while staying fully offline and CI-friendly.**
@@ -276,4 +275,3 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 make demo
->>>>>>> cc1c591 (copilot)
