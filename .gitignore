@@ -1,0 +1,85 @@
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python build & bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual envs & Python version managers ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Test/coverage/mutation caches ---
+.coverage
+.coverage.*
+htmlcov/
+.coverage_html/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.mutmut-cache/
+.mutmut-cache-*/
+
+# --- Reports & generated artifacts ---
+report/
+**/report/
+**/.qa_copilot_targets.json
+**/.qa_copilot_created.json
+**/.qa_copilot_validate.json
+**/.qa_copilot_ledger.json
+
+# Ignore autogen tests (keep the folder with a .gitkeep if needed)
+**/tests/autogen/**
+!**/tests/autogen/.gitkeep
+
+# --- Coverage XML produced during demo/runs ---
+coverage.xml
+**/coverage.xml
+
+# --- Logs & temp files ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# --- Example project runtime files ---
+example/target_repo/.coverage
+example/target_repo/.pytest_cache/
+example/target_repo/coverage.xml
+example/target_repo/tests/autogen/**
+!example/target_repo/tests/autogen/.gitkeep
+
+# --- Secrets / env files (safety) ---
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+*.key
+*.pem
+id_*
+*.crt
+*.p12
+
+# --- Node (if you add a VS Code extension later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QA Copilot - GenAI-Verified Test Generator
 
 > **Automatically generates only those tests that truly catch bugs proven by increased mutation score or branch coverage while staying fully offline and CI-friendly.**
@@ -259,3 +260,20 @@ qa_copilot report <repo> [--out report] [--sarif]
 - **Optional Local LLM**: assert-message polish under strict constraints.
 
 ---
+=======
+# QA Copilot
+
+Generates minimal tests for risky, uncovered branches and **keeps only** tests that increase mutation score or branch coverage. Runs fully offline. Includes:
+
+- Analyzer (coverage + complexity + churn + AST)
+- Generator (heuristics; optional LLM hook later)
+- Validator with **mutmut JSON parsing + keep/revert ledger**
+- HTML report
+
+## Quick start
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+make demo
+>>>>>>> cc1c591 (copilot)
